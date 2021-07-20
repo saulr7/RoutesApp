@@ -8,13 +8,12 @@ import DetailPage from '../pages/DetailPage';
 import HomePage from '../pages/HomePage';
 import SettingsPage from '../pages/SettingsPage';
 import NotificationsPage from '../pages/NotificationsPage';
-import { Button, Text, View } from 'react-native';
+import { Button } from 'react-native';
 
 
 const Tabs = createBottomTabNavigator();
 const Stack = createStackNavigator();
 const Drawer = createDrawerNavigator();
-
 
 
 const AppDrawer = () => {
